@@ -396,26 +396,26 @@ export default function Home() {
 
                 <div className="grid gap-4">
                   <Field label="Your Brand *">
-                    <input placeholder="e.g. Khambhat Halwasan" value={config.brand}
+                    <input placeholder="e.g. Top10 Property Agents" value={config.brand}
                       onChange={(e) => setConfig((p) => ({ ...p, brand: e.target.value }))}
                       style={inputStyle} />
                   </Field>
 
                   <div className="grid grid-cols-2 gap-3">
                     <Field label="Industry / Niche *">
-                      <input placeholder="e.g. Khambhat Sweets" value={config.niche}
+                      <input placeholder="e.g. Real Estate Agents" value={config.niche}
                         onChange={(e) => setConfig((p) => ({ ...p, niche: e.target.value }))}
                         style={inputStyle} />
                     </Field>
                     <Field label="Location">
-                      <input placeholder="e.g. Khambhat" value={config.location}
+                      <input placeholder="e.g. UK" value={config.location}
                         onChange={(e) => setConfig((p) => ({ ...p, location: e.target.value }))}
                         style={inputStyle} />
                     </Field>
                   </div>
 
                   <Field label="Competitors (comma-separated)">
-                    <input placeholder="e.g. Jalaram Sweets, Jalaram Farsan" value={config.competitors}
+                    <input placeholder="e.g. Rightmove, Zoopla, OpenRent" value={config.competitors}
                       onChange={(e) => setConfig((p) => ({ ...p, competitors: e.target.value }))}
                       style={inputStyle} />
                   </Field>
