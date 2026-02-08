@@ -20,6 +20,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Space+Mono:wght@400;700&display=swap"
           rel="stylesheet"
         />
+        <meta name="google-site-verification" content="s5F1tcq35kyDs9OwjtXmA1EjEa18BiEhLg8z6No6Cbo" />
       </head>
       <body>
         {/* Google Analytics */}
