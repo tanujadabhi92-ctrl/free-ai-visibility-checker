@@ -21,6 +21,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
         <meta name="google-site-verification" content="s5F1tcq35kyDs9OwjtXmA1EjEa18BiEhLg8z6No6Cbo" />
+        <meta name="msvalidate.01" content="E065EB5C5E5BC4218F7C322ED5ECE262" />
       </head>
       <body>
         {/* Google Analytics */}
