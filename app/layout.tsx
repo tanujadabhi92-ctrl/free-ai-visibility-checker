@@ -3,9 +3,9 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AEO Grader — AI Answer Engine Optimization",
+  title: "Free AI Visibility Tool |  AEO Grader | AI Search Grader | AI Brand Visibility Tool | Get Your Free AI Visibility Report",
   description:
-    "Discover how visible your brand is in AI answer engines like Perplexity, ChatGPT, and Gemini.",
+    "Measures how often your brand appears in AI-generated answers across topics, and how consistently it shows up compared to other brands. Higher score means better visibility.",
 };
 
 export default function RootLayout({
