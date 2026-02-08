@@ -500,7 +500,6 @@ export default function Home() {
                   { icon: "🔒", text: "No signup required" },
                   { icon: "⚡", text: "Results in under 2 min" },
                   { icon: "🆓", text: "100% Free" },
-                  { icon: "🤖", text: "Powered by Perplexity AI" },
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-2">
                     <span style={{ fontSize: 16 }}>{item.icon}</span>
