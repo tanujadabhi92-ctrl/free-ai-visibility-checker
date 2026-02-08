@@ -176,7 +176,7 @@ export default function Home() {
     competitors: "",
     niche: "",
     location: "",
-    numPrompts: 5,
+    numPrompts: 3,
   });
   const [results, setResults] = useState<Result[]>([]);
   const [scores, setScores] = useState<Scores | null>(null);
@@ -362,7 +362,7 @@ export default function Home() {
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                 }}>
-                AI Visibility Checker
+                Free AI Visibility Checker
               </h1>
               <span style={{ color: "var(--accent)", fontWeight: 600 }}>
                 ⚡ Created by Pintu Dabhi - <a href="https://www.linkedin.com/in/pintudabhi/">https://www.linkedin.com/in/pintudabhi/</a>
@@ -421,11 +421,11 @@ export default function Home() {
                   </Field>
 
                   <Field label={`Number of AI Queries: ${config.numPrompts}`}>
-                    <input type="range" min={3} max={20} value={config.numPrompts}
+                    <input type="range" min={3} max={3} value={config.numPrompts}
                       onChange={(e) => setConfig((p) => ({ ...p, numPrompts: +e.target.value }))}
                       style={{ width: "100%", accentColor: "var(--accent)" }} />
                     <div className="flex justify-between text-xs mt-1" style={{ color: "var(--muted)" }}>
-                      <span>3 (quick)</span><span>20 (thorough)</span>
+                      <span>3 (fixed)</span>
                     </div>
                   </Field>
                 </div>
